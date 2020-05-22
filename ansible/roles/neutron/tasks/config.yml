@@ -116,7 +116,6 @@
       - "neutron-linuxbridge-agent"
       - "neutron-openvswitch-agent"
       - "neutron-infoblox-ipam-agent"
-      - "neutron-server"
   merge_configs:
     sources:
       - "{{ role_path }}/templates/ml2_conf.ini.j2"
